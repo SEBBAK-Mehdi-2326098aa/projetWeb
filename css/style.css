@@ -1,10 +1,31 @@
-h1 {
 
-    color: black;
+header{
+  background-color: 032650;
+  background: scroll;
+}
+h1 {
+    font-size: 3em;
+    color: darkslategray;
     text-shadow: 2px 2px beige;
 }
 body {
     color: white;
     background-color:darkslategray;
     text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: flex-start;
+}
+.menu{
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+a{
+    color: aliceblue;
+}
+a:hover{
+    color: black;
 }
