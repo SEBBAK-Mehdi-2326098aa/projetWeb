@@ -1,12 +1,16 @@
+* {
+    font-family: "Candara Light"
+;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
 html{
     background-image: url("https://les-echiquiers-du-roi.fr/cdn/shop/products/jeu-echecs-vert-staunton_1200x.jpg?v=1619635795");
     background-size: cover;
 }
 
-header{
-  background-color: 032650;
-  background: scroll;
-}
 h1 {
     font-size: 5em;
     color:darkslategray;
@@ -35,7 +39,7 @@ a:hover{
     color: black;
 }
 ul{
-    border: solid;
+
     margin: 0px 3em;
     border-radius: 4px;
     list-style: none;
@@ -44,9 +48,7 @@ ul{
     color:cadetblue;
     font-weight: bold;
     text-decoration: none;
+    background: white;
+    border-radius: 15px;
 
-}
-ol{
-    list-style: none;
-    
 }
