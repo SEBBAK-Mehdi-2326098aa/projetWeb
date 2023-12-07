@@ -4,8 +4,8 @@ header{
   background: scroll;
 }
 h1 {
-    font-size: 3em;
-    color: darkslategray;
+    font-size: 5em;
+    color:darkslategray;
     text-shadow: 2px 2px beige;
 }
 body {
@@ -24,11 +24,22 @@ footer{
     flex-direction: row;
 }
 a{
-    color: aliceblue;
+    color:cornflowerblue;
 }
 a:hover{
     color: black;
 }
 ul{
     border: solid;
+    list-style: none;
+}
+.actual{
+    color:cadetblue;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+ol{
+    list-style: none;
+    
 }
