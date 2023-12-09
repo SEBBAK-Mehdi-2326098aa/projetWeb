@@ -90,7 +90,6 @@ ul{
     flex-direction: row;
     justify-content: space-evenly;
 }
-
 main {
     display: flex;
     flex-direction: row;
@@ -103,7 +102,6 @@ img {
     width: 50%;
 }
 }
-
 #description {
     width: 50%;
     display: flex;
@@ -119,26 +117,42 @@ img {
     border-radius: 15px;
 
 }
+#apprendre{
+   display: flex;
+   justify-self: space-around;
+   flex-direction: column;
+}
 .tuto{
        width: 100%;
        height: 56.25%;
-       margin-left:auto ;
-       margin-top: 10%;
-       display: flex;
-       justify-content: center;
+       margin-top: 5%;
         
 }
 #titre{
-    display: flex;
-    justify-content: flex-start;
+    margin: 0 20px;
+    padding: 2em;
 }
-p{
+.petit-texte{
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-size: 2em;
+}
+p{
+    display: flex;
+    flex-direction: column;
+    padding: 3em;   
+}
+.images{
+    width: auto;
+    height: 15em;
+    margin-right: auto;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 h2{
     display: flex;
@@ -147,18 +161,33 @@ h2{
     margin-right: auto;
     font-size: 2em;
 }
+.liste li a::after{
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  content: "";
+  width: 0;
+  height: 2px;
+  border-radius: 6px;
+  background-color: black;
+  transition: 0.5s;
+}
+.liste li a:hover::after{
+    width: 100%;
+}
 .liste li a{
-    
+    border-radius: 10%;
+    border: 1px solid black;
+    color: whitesmoke;
 }
 .liste li{
+   padding: 5px;
    margin : 0 15px
 }
 .liste{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    border-radius: 8px;
-    backdrop-filter: blur(5px);
-    border: 3px solid rgb(15, 15, 14);
+    font-size: 1.5em;
     color: white;
 }
